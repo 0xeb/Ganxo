@@ -1,0 +1,2 @@
+add_executable(test_hooks_win1 main.cpp)
+target_link_libraries(test_hooks_win1 ganxo_lib)

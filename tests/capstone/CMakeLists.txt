@@ -1,0 +1,2 @@
+add_executable(gnx_capstone1 gnx_capstone1.cpp)
+target_link_libraries(gnx_capstone1 ganxo_lib)

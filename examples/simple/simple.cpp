@@ -1,4 +1,10 @@
-#include "stdafx.h"
+#include <stdio.h>
+#include <tchar.h>
+#include <windows.h>
+#include <inttypes.h>
+extern "C" {
+    #include <ganxo.h>
+}
 
 //--------------------------------------------------------------------------
 typedef VOID(WINAPI *Sleep_proto)(DWORD);
@@ -70,6 +76,6 @@ int main()
     gnx_transaction_commit(transaction);
 
     gnx_close(gnx);
-
+ 
     return 0;
 }

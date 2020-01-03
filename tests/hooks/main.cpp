@@ -1,4 +1,12 @@
-#include "stdafx.h"
+#include <stdio.h>
+#include <tchar.h>
+#include <windows.h>
+#include <stdlib.h>
+#include <assert.h>
+#include <inttypes.h>
+extern "C" {
+    #include <ganxo.h>
+}
 
 #define RET_ON_ERR(err) if ((err) != GNX_ERR_OK) return (err);
 

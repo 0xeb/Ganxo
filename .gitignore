@@ -1,6 +1,3 @@
 .vs/
-Debug/
-Release/
-*.vc.db
-*.vc.opendb
-ipch/
+build/
+build64/
